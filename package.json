@@ -1,0 +1,21 @@
+{
+  "name": "mcp-cursor-project",
+  "version": "1.0.0",
+  "description": "MCP integration with Cursor IDE",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx -y cross-env GITHUB_PERSONAL_ACCESS_TOKEN=${GITHUB_PERSONAL_ACCESS_TOKEN} npx -y @modelcontextprotocol/server-github",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "cursor",
+    "github"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/server-github": "latest",
+    "cross-env": "^7.0.3"
+  }
+}
